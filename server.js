@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-let log = [1];
+let log = [];
 
 app.use(express.json());
 
