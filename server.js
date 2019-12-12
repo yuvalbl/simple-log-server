@@ -18,7 +18,9 @@ app.post('/add', (req, res) => {
     res.json(log);
 });
 
-app.listen(4000, () => console.log('Example app listening on port 4000!'))
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => console.log(`Simple log server listening on port ${PORT}!`));
 
 
 
