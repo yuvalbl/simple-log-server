@@ -1,0 +1,16 @@
+{
+  "name": "simple-log-server",
+  "version": "0.1.0",
+  "description": "simple log for dev and tests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
