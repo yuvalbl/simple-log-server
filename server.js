@@ -1,9 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
-let log = [];
-
+app.use(cors());
 app.use(express.json());
+
+let log = [];
 
 app.get('/reset', (req, res) => {
     log = [];
